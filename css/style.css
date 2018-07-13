@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: aliceblue;
+}
+
+.max-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+#banner {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 200px;
+}
+
+.game-box {
+    display: inline-block;
+    text-align: center;
+    margin-left: 150px;
+    width: 70%;
+    height: 400px;
+    border-style: dotted;
+    border-width: 5px;
+    border-color: white;
+    color: white;
+}
+
+#game {
+    text-align: center;
+    color: aliceblue;
+}
